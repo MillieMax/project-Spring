@@ -9,8 +9,9 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        git(url: 'https://github.com/MillieMax/project-Spring.git', branch: 'master', credentialsId: 'Buxar89@')
+        sh 'mvn clean install spring-boot:run'
       }
     }
+
   }
 }
