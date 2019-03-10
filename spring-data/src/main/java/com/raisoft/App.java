@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * Hello world!
+ * demonstrating demo project
  *
  */
 @SpringBootApplication
